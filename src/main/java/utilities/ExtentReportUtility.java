@@ -10,6 +10,7 @@ import com.google.common.io.Files;
 
 public class ExtentReportUtility {
 	ExtentReports extent=null;
+	////
 	public void ExtentReport() {
 		String filename = "test_output\\extentreport.html";
 		extent = new ExtentReports();
